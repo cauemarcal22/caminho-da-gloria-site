@@ -1335,14 +1335,45 @@ img.img-fluid {
     gap: 2rem;
   }
 
+  .visit-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
   .info-item {
-    padding: 2rem;
+    padding: 1.5rem;
     flex-direction: column;
     text-align: center;
   }
 
+  .info-icon {
+    font-size: 2.5rem;
+  }
+
   .info-details {
     text-align: center;
+  }
+
+  .info-details h3 {
+    font-size: 1.2rem;
+  }
+
+  .schedule .day {
+    font-size: 1rem;
+  }
+
+  .schedule .time {
+    font-size: 1.4rem;
+  }
+
+  .info-item p {
+    font-size: 0.95rem;
+  }
+
+  .btn-maps {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
   }
 
   .map-container {
@@ -1414,11 +1445,24 @@ img.img-fluid {
     font-size: 1.5rem;
   }
 
+  .visit-info {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
   .info-item {
     padding: 1.5rem;
   }
 
   .info-icon {
     font-size: 2.5rem;
+  }
+
+  .info-details h3 {
+    font-size: 1.1rem;
+  }
+
+  .schedule .time {
+    font-size: 1.3rem;
   }
 }
