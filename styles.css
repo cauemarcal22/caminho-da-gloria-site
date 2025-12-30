@@ -1338,17 +1338,18 @@ img.img-fluid {
   .visit-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .info-item {
-    padding: 1.5rem;
+    padding: 1.2rem;
     flex-direction: column;
     text-align: center;
+    gap: 0.8rem;
   }
 
   .info-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .info-details {
@@ -1356,28 +1357,35 @@ img.img-fluid {
   }
 
   .info-details h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .schedule {
+    margin-bottom: 0.8rem;
   }
 
   .schedule .day {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   .schedule .time {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .info-item p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
   }
 
   .btn-maps {
-    padding: 0.8rem 1.5rem;
-    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
+    font-size: 0.85rem;
   }
 
   .map-container {
     min-height: 350px;
+    width: 100%;
   }
 }
 
@@ -1446,23 +1454,32 @@ img.img-fluid {
   }
 
   .visit-info {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
   }
 
   .info-item {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   .info-icon {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   .info-details h3 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .schedule .time {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+
+  .info-item p {
+    font-size: 0.75rem;
+  }
+
+  .btn-maps {
+    padding: 0.6rem 1rem;
+    font-size: 0.75rem;
   }
 }
